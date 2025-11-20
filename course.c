@@ -1,10 +1,3 @@
-/*
- Advanced Course Management System (C)
- File: course_mgmt_advanced.c
- Compile: gcc -o course_mgmt_advanced course_mgmt_advanced.c
- Run: ./course_mgmt_advanced
-*/
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -337,4 +330,5 @@ void menu() {
 int main(void) {
     menu();
     return 0;
+
 }
