@@ -59,4 +59,7 @@ Stored in `courses.dat` for fast and efficient data handling
 Language: **C**  
 Standard: **C89 / C99 / C11**  
 Required Headers:
-
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
