@@ -66,3 +66,70 @@ Required Headers:
 #include <string.h>
 
 #include <ctype.h>
+
+ ### 4. File Handling Requirements
+- Read/write access to working directory
+- Course records stored in binary `.dat` file
+- Program auto-creates `courses.dat` when missing
+
+### 5. Compilation Requirements
+- Must compile without errors
+- Recommended flag: `-Wall`
+
+---
+
+## Functional Requirements
+
+### 1. User Interface
+- Fully terminal-based
+- Clear menu options
+- Validates user input
+
+### 2. Course Record Operations
+- **Add Course:** Save new course details
+- **Search Course:** By ID or name
+- **View Courses:** Display all saved records
+- **Update Course:** Modify existing details
+- **Delete Course:** Remove course from database
+- **Export Courses:** Save readable `.txt` file
+
+### 3. Data Management
+- All information stored in `courses.dat`
+- Data persists across multiple sessions
+- Smooth handling of missing or new files
+
+### 4. Program Flow
+- Menu-driven loop until user selects Exit
+- Displays confirmations and error messages
+- Easy navigation between operations
+
+---
+
+## How to Run the Program
+
+### 1. Compile the Program
+Open your terminal in the project directory and run:
+
+```bash
+gcc course_management.c -o course_management
+
+2. Run the Executable
+On Linux/macOS:
+./course_management
+
+On Windows:
+course_management.exe
+
+Data File
+
+The program automatically creates courses.dat on first run.
+
+All course records are saved to and loaded from this file.
+
+Exported records will appear in courses.txt when using the export option.
+
+Notes
+
+Ensure the executable has permission to read/write files in the directory.
+
+Running with -Wall is recommended to see potential warnings.
