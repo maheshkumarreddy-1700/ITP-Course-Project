@@ -112,24 +112,28 @@ Open your terminal in the project directory and run:
 
 ```bash
 gcc course_management.c -o course_management
+```
+### 2. Run 
 
-2. Run the Executable
-On Linux/macOS:
+** Linux / macOS**
+
+ ```bash
 ./course_management
+```
 
-On Windows:
+**Windows**
+
+```bash
 course_management.exe
+```
 
-Data File
+### 3 Data Files
 
-The program automatically creates courses.dat on first run.
+* The program automatically creates 'courses.dat' on first run.
+* All course records are saved to and loaded from this file.
+* Exported records will appear in courses.txt when using the export option.
 
-All course records are saved to and loaded from this file.
+  ---
 
-Exported records will appear in courses.txt when using the export option.
-
-Notes
-
-Ensure the executable has permission to read/write files in the directory.
-
-Running with -Wall is recommended to see potential warnings.
+  ## ** Screenshots**
+  
